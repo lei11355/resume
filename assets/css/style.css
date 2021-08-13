@@ -630,6 +630,24 @@ section {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+   .box0-0{
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* position: sticky;
+    position: -webkit-sticky; */
+    top: 0;
+   /* background-image: url("../images/hero-bg.jpg");*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-image: url("../images/Careers_blackboard.jpg");
+    height: 100px;
+    
+  }
+  
   .hero-form button {
     width: 100%;
   }
